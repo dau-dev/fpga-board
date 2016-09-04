@@ -2446,6 +2446,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="J1" library="AS0A626-U2SN-7F" deviceset="AS0A626-U2SN-7F" device=""/>
+<part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3299,17 +3300,230 @@ In this library the device names are the same as the pin names of the symbols, t
 </sheet>
 <sheet>
 <plain>
+<text x="2.54" y="137.16" size="1.778" layer="91">Vrefdq</text>
+<text x="27.94" y="137.16" size="1.778" layer="91">Vss</text>
+<text x="27.94" y="129.54" size="1.778" layer="91">Vss</text>
+<text x="27.94" y="121.92" size="1.778" layer="91">Vss</text>
+<text x="27.94" y="114.3" size="1.778" layer="91">Vss</text>
+<text x="27.94" y="106.68" size="1.778" layer="91">Vss</text>
+<text x="27.94" y="99.06" size="1.778" layer="91">Vss</text>
+<text x="27.94" y="91.44" size="1.778" layer="91">Vss</text>
+<text x="27.94" y="83.82" size="1.778" layer="91">Vss</text>
+<text x="27.94" y="78.74" size="1.778" layer="91">Vss</text>
+<text x="27.94" y="71.12" size="1.778" layer="91">Vss</text>
+<text x="27.94" y="63.5" size="1.778" layer="91">Vss</text>
+<text x="27.94" y="55.88" size="1.778" layer="91">Vss</text>
+<text x="27.94" y="48.26" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="106.68" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="99.06" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="93.98" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="86.36" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="78.74" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="71.12" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="63.5" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="55.88" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="50.8" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="43.18" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="35.56" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="27.94" size="1.778" layer="91">Vss</text>
+<text x="66.04" y="20.32" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="134.62" size="1.778" layer="91">Vdd</text>
+<text x="48.26" y="127" size="1.778" layer="91">Vdd</text>
+<text x="48.26" y="119.38" size="1.778" layer="91">Vdd</text>
+<text x="48.26" y="111.76" size="1.778" layer="91">Vdd</text>
+<text x="66.04" y="134.62" size="1.778" layer="91">Vdd</text>
+<text x="66.04" y="127" size="1.778" layer="91">Vdd</text>
+<text x="66.04" y="119.38" size="1.778" layer="91">Vdd</text>
+<text x="66.04" y="111.76" size="1.778" layer="91">Vdd</text>
+<text x="5.08" y="132.08" size="1.778" layer="91">DQ0</text>
+<text x="48.26" y="106.68" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="99.06" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="91.44" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="83.82" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="76.2" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="71.12" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="63.5" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="55.88" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="48.26" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="40.64" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="33.02" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="20.32" size="1.778" layer="91">Vss</text>
+<text x="48.26" y="27.94" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="134.62" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="127" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="121.92" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="114.3" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="106.68" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="99.06" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="91.44" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="83.82" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="76.2" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="60.96" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="68.58" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="55.88" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="48.26" size="1.778" layer="91">Vss</text>
+<text x="5.08" y="12.7" size="1.778" layer="91">Vdd</text>
+<text x="5.08" y="20.32" size="1.778" layer="91">Vdd</text>
+<text x="5.08" y="27.94" size="1.778" layer="91">Vdd</text>
+<text x="5.08" y="35.56" size="1.778" layer="91">Vdd</text>
+<text x="5.08" y="43.18" size="1.778" layer="91">Vdd</text>
+<text x="27.94" y="12.7" size="1.778" layer="91">Vdd</text>
+<text x="27.94" y="20.32" size="1.778" layer="91">Vdd</text>
+<text x="27.94" y="27.94" size="1.778" layer="91">Vdd</text>
+<text x="27.94" y="35.56" size="1.778" layer="91">Vdd</text>
+<text x="27.94" y="43.18" size="1.778" layer="91">Vdd</text>
+<text x="5.08" y="129.54" size="1.778" layer="91">DQ1</text>
+<text x="5.08" y="124.46" size="1.778" layer="91">DM0</text>
+<text x="5.08" y="119.38" size="1.778" layer="91">DQ2</text>
+<text x="5.08" y="116.84" size="1.778" layer="91">DQ3</text>
+<text x="5.08" y="111.76" size="1.778" layer="91">DQ8</text>
+<text x="5.08" y="109.22" size="1.778" layer="91">DQ9</text>
+<text x="5.08" y="104.14" size="1.778" layer="91">DQS1#</text>
+<text x="5.08" y="101.6" size="1.778" layer="91">DQS1</text>
+<text x="5.08" y="96.52" size="1.778" layer="91">DQ10</text>
+<text x="5.08" y="93.98" size="1.778" layer="91">DQ11</text>
+<text x="5.08" y="88.9" size="1.778" layer="91">DQ16</text>
+<text x="5.08" y="86.36" size="1.778" layer="91">DQ17</text>
+<text x="5.08" y="81.28" size="1.778" layer="91">DQS2#</text>
+<text x="5.08" y="78.74" size="1.778" layer="91">DQS2</text>
+<text x="5.08" y="73.66" size="1.778" layer="91">DQ18</text>
+<text x="5.08" y="71.12" size="1.778" layer="91">DQ19</text>
+<text x="5.08" y="66.04" size="1.778" layer="91">DQ24</text>
+<text x="5.08" y="63.5" size="1.778" layer="91">DQ25</text>
+<text x="5.08" y="58.42" size="1.778" layer="91">DM3</text>
+<text x="5.08" y="53.34" size="1.778" layer="91">DQ26</text>
+<text x="5.08" y="50.8" size="1.778" layer="91">DQ27</text>
+<text x="5.08" y="45.72" size="1.778" layer="91">CKE0</text>
+<text x="5.08" y="40.64" size="1.778" layer="91">NC</text>
+<text x="5.08" y="38.1" size="1.778" layer="91">BA2</text>
+<text x="5.08" y="33.02" size="1.778" layer="91">A12</text>
+<text x="5.08" y="30.48" size="1.778" layer="91">A9</text>
+<text x="5.08" y="25.4" size="1.778" layer="91">A8</text>
+<text x="5.08" y="22.86" size="1.778" layer="91">A5</text>
+<text x="5.08" y="17.78" size="1.778" layer="91">A3</text>
+<text x="5.08" y="15.24" size="1.778" layer="91">A1</text>
+<text x="5.08" y="10.16" size="1.778" layer="91">CK0</text>
+<text x="27.94" y="134.62" size="1.778" layer="91">DQ4</text>
+<text x="27.94" y="132.08" size="1.778" layer="91">DQ5</text>
+<text x="27.94" y="127" size="1.778" layer="91">DQS0#</text>
+<text x="27.94" y="124.46" size="1.778" layer="91">DQS0</text>
+<text x="27.94" y="119.38" size="1.778" layer="91">DQ6</text>
+<text x="27.94" y="116.84" size="1.778" layer="91">DQ7</text>
+<text x="27.94" y="111.76" size="1.778" layer="91">DQ12</text>
+<text x="27.94" y="109.22" size="1.778" layer="91">DQ13</text>
+<text x="27.94" y="104.14" size="1.778" layer="91">DM1</text>
+<text x="27.94" y="101.6" size="1.778" layer="91">RESET</text>
+<text x="27.94" y="96.52" size="1.778" layer="91">DQ14</text>
+<text x="27.94" y="93.98" size="1.778" layer="91">DQ15</text>
+<text x="27.94" y="88.9" size="1.778" layer="91">DQ20</text>
+<text x="27.94" y="86.36" size="1.778" layer="91">DQ21</text>
+<text x="27.94" y="81.28" size="1.778" layer="91">DM2</text>
+<text x="27.94" y="76.2" size="1.778" layer="91">DQ22</text>
+<text x="27.94" y="73.66" size="1.778" layer="91">DQ23</text>
+<text x="27.94" y="68.58" size="1.778" layer="91">DQ28</text>
+<text x="27.94" y="66.04" size="1.778" layer="91">DQ29</text>
+<text x="27.94" y="60.96" size="1.778" layer="91">DQ3#</text>
+<text x="27.94" y="58.42" size="1.778" layer="91">DQ3</text>
+<text x="27.94" y="53.34" size="1.778" layer="91">DQ30</text>
+<text x="27.94" y="50.8" size="1.778" layer="91">DQ31</text>
+<text x="27.94" y="45.72" size="1.778" layer="91">NC</text>
+<text x="27.94" y="40.64" size="1.778" layer="91">A15</text>
+<text x="27.94" y="38.1" size="1.778" layer="91">A14</text>
+<text x="27.94" y="33.02" size="1.778" layer="91">A11</text>
+<text x="27.94" y="30.48" size="1.778" layer="91">A7</text>
+<text x="27.94" y="25.4" size="1.778" layer="91">A6</text>
+<text x="27.94" y="22.86" size="1.778" layer="91">A4</text>
+<text x="27.94" y="17.78" size="1.778" layer="91">A2</text>
+<text x="27.94" y="15.24" size="1.778" layer="91">A0</text>
+<text x="27.94" y="10.16" size="1.778" layer="91">CK1</text>
+<text x="48.26" y="137.16" size="1.778" layer="91">CK0#</text>
+<text x="48.26" y="132.08" size="1.778" layer="91">A10</text>
+<text x="48.26" y="129.54" size="1.778" layer="91">BA0</text>
+<text x="48.26" y="124.46" size="1.778" layer="91">WE#</text>
+<text x="48.26" y="121.92" size="1.778" layer="91">CAS#</text>
+<text x="48.26" y="116.84" size="1.778" layer="91">A13</text>
+<text x="48.26" y="114.3" size="1.778" layer="91">NC</text>
+<text x="48.26" y="109.22" size="1.778" layer="91">NC</text>
+<text x="48.26" y="104.14" size="1.778" layer="91">DQ32</text>
+<text x="48.26" y="101.6" size="1.778" layer="91">DQ33</text>
+<text x="48.26" y="96.52" size="1.778" layer="91">DQS4#</text>
+<text x="48.26" y="93.98" size="1.778" layer="91">DQS4</text>
+<text x="48.26" y="88.9" size="1.778" layer="91">DQ34</text>
+<text x="48.26" y="86.36" size="1.778" layer="91">DQ35</text>
+<text x="48.26" y="81.28" size="1.778" layer="91">DQ40</text>
+<text x="48.26" y="78.74" size="1.778" layer="91">DQ41</text>
+<text x="48.26" y="73.66" size="1.778" layer="91">DM5</text>
+<text x="48.26" y="68.58" size="1.778" layer="91">DQ42</text>
+<text x="48.26" y="66.04" size="1.778" layer="91">DQ43</text>
+<text x="48.26" y="60.96" size="1.778" layer="91">DQ48</text>
+<text x="48.26" y="58.42" size="1.778" layer="91">DQ49</text>
+<text x="48.26" y="53.34" size="1.778" layer="91">DQS6#</text>
+<text x="48.26" y="50.8" size="1.778" layer="91">DQS6</text>
+<text x="48.26" y="45.72" size="1.778" layer="91">DQ50</text>
+<text x="48.26" y="43.18" size="1.778" layer="91">DQ51</text>
+<text x="48.26" y="38.1" size="1.778" layer="91">DQ56</text>
+<text x="48.26" y="35.56" size="1.778" layer="91">DQ57</text>
+<text x="48.26" y="30.48" size="1.778" layer="91">DM7</text>
+<text x="48.26" y="25.4" size="1.778" layer="91">DQ58</text>
+<text x="48.26" y="22.86" size="1.778" layer="91">DQ59</text>
+<text x="48.26" y="17.78" size="1.778" layer="91">SA0</text>
+<text x="48.26" y="15.24" size="1.778" layer="91">Vddspd</text>
+<text x="48.26" y="12.7" size="1.778" layer="91">SA1</text>
+<text x="48.26" y="10.16" size="1.778" layer="91">Vtt</text>
+<text x="66.04" y="137.16" size="1.778" layer="91">CK1#</text>
+<text x="66.04" y="132.08" size="1.778" layer="91">BA1</text>
+<text x="66.04" y="129.54" size="1.778" layer="91">RAS#</text>
+<text x="66.04" y="124.46" size="1.778" layer="91">S0#</text>
+<text x="66.04" y="121.92" size="1.778" layer="91">ODT0</text>
+<text x="66.04" y="116.84" size="1.778" layer="91">NC</text>
+<text x="66.04" y="114.3" size="1.778" layer="91">NC</text>
+<text x="66.04" y="109.22" size="1.778" layer="91">Vrefca</text>
+<text x="66.04" y="104.14" size="1.778" layer="91">DQ36</text>
+<text x="66.04" y="101.6" size="1.778" layer="91">DQ37</text>
+<text x="66.04" y="96.52" size="1.778" layer="91">DM4</text>
+<text x="66.04" y="91.44" size="1.778" layer="91">DQ38</text>
+<text x="66.04" y="88.9" size="1.778" layer="91">DQ39</text>
+<text x="66.04" y="83.82" size="1.778" layer="91">DQ44</text>
+<text x="66.04" y="81.28" size="1.778" layer="91">DQ45</text>
+<text x="66.04" y="76.2" size="1.778" layer="91">DQS5#</text>
+<text x="66.04" y="73.66" size="1.778" layer="91">DQS5</text>
+<text x="66.04" y="68.58" size="1.778" layer="91">DQ46</text>
+<text x="66.04" y="66.04" size="1.778" layer="91">DQ47</text>
+<text x="66.04" y="60.96" size="1.778" layer="91">DQ52</text>
+<text x="66.04" y="58.42" size="1.778" layer="91">DQ53</text>
+<text x="66.04" y="53.34" size="1.778" layer="91">DM6</text>
+<text x="66.04" y="48.26" size="1.778" layer="91">DQ54</text>
+<text x="66.04" y="45.72" size="1.778" layer="91">DQ55</text>
+<text x="66.04" y="40.64" size="1.778" layer="91">DQ60</text>
+<text x="66.04" y="38.1" size="1.778" layer="91">DQ61</text>
+<text x="66.04" y="33.02" size="1.778" layer="91">DQS7#</text>
+<text x="66.04" y="30.48" size="1.778" layer="91">DQS7</text>
+<text x="66.04" y="25.4" size="1.778" layer="91">DQ62</text>
+<text x="66.04" y="22.86" size="1.778" layer="91">DQ63</text>
+<text x="66.04" y="17.78" size="1.778" layer="91">NF</text>
+<text x="66.04" y="15.24" size="1.778" layer="91">SDA</text>
+<text x="66.04" y="12.7" size="1.778" layer="91">SCL</text>
+<text x="66.04" y="10.16" size="1.778" layer="91">Vtt</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="38.1" y="78.74"/>
+<instance part="SUPPLY4" gate="GND" x="99.06" y="132.08"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="D_VREFDQ" class="0">
+<net name="VTTVREF" class="0">
 <segment>
 <wire x1="7.62" y1="137.16" x2="15.24" y2="137.16" width="0.1524" layer="91"/>
 <label x="12.7" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="111.76" x2="76.2" y2="111.76" width="0.1524" layer="91"/>
+<label x="71.12" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
+<label x="71.12" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D_VSS" class="0">
@@ -3365,14 +3579,176 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="7.62" y1="48.26" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
 <label x="12.7" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="50.8" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
+<label x="53.34" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
+<label x="53.34" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
+<label x="53.34" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
+<label x="53.34" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
+<label x="53.34" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
+<label x="53.34" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
+<label x="53.34" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
+<label x="53.34" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
+<label x="53.34" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="40.64" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
+<label x="53.34" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="33.02" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
+<label x="53.34" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<label x="53.34" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
+<label x="53.34" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
+<label x="35.56" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<label x="35.56" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
+<label x="35.56" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
+<label x="35.56" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+<label x="35.56" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
+<label x="35.56" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="91.44" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
+<label x="35.56" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="83.82" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
+<label x="35.56" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
+<label x="35.56" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="71.12" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<label x="35.56" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
+<label x="35.56" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
+<label x="35.56" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
+<label x="35.56" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="106.68" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
+<label x="71.12" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
+<label x="71.12" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
+<label x="71.12" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
+<label x="71.12" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
+<label x="71.12" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
+<label x="71.12" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
+<label x="71.12" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
+<label x="71.12" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
+<label x="71.12" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="43.18" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
+<label x="71.12" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
+<label x="71.12" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="27.94" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
+<label x="71.12" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="20.32" x2="76.2" y2="20.32" width="0.1524" layer="91"/>
+<label x="71.12" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+<wire x1="99.06" y1="134.62" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="139.7" x2="91.44" y2="139.7" width="0.1524" layer="91"/>
+<label x="91.44" y="139.7" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="D_DQ0" class="0">
+<net name="D_D0" class="0">
 <segment>
 <wire x1="7.62" y1="132.08" x2="15.24" y2="132.08" width="0.1524" layer="91"/>
 <label x="12.7" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ1" class="0">
+<net name="D_D1" class="0">
 <segment>
 <wire x1="7.62" y1="129.54" x2="15.24" y2="129.54" width="0.1524" layer="91"/>
 <label x="12.7" y="129.54" size="1.778" layer="95"/>
@@ -3384,97 +3760,97 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="12.7" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ2" class="0">
+<net name="D_D2" class="0">
 <segment>
 <wire x1="7.62" y1="119.38" x2="15.24" y2="119.38" width="0.1524" layer="91"/>
 <label x="12.7" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ3" class="0">
+<net name="D_DQ3_P" class="0">
 <segment>
-<wire x1="7.62" y1="116.84" x2="15.24" y2="116.84" width="0.1524" layer="91"/>
-<label x="12.7" y="116.84" size="1.778" layer="95"/>
+<wire x1="30.48" y1="58.42" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
+<label x="35.56" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ8" class="0">
+<net name="D_D8" class="0">
 <segment>
 <wire x1="7.62" y1="111.76" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
 <label x="12.7" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ9" class="0">
+<net name="D_D9" class="0">
 <segment>
 <wire x1="7.62" y1="109.22" x2="15.24" y2="109.22" width="0.1524" layer="91"/>
 <label x="12.7" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQS1#" class="0">
+<net name="D_DQS1_N" class="0">
 <segment>
 <wire x1="7.62" y1="104.14" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
 <label x="12.7" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQS1" class="0">
+<net name="D_DQS1_P" class="0">
 <segment>
 <wire x1="7.62" y1="101.6" x2="15.24" y2="101.6" width="0.1524" layer="91"/>
 <label x="12.7" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ10" class="0">
+<net name="D_D10" class="0">
 <segment>
 <wire x1="7.62" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
 <label x="12.7" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ11" class="0">
+<net name="D_D11" class="0">
 <segment>
 <wire x1="7.62" y1="93.98" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
 <label x="12.7" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ16" class="0">
+<net name="D_D16" class="0">
 <segment>
 <wire x1="7.62" y1="88.9" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
 <label x="12.7" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ17" class="0">
+<net name="D_D17" class="0">
 <segment>
 <wire x1="7.62" y1="86.36" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
 <label x="12.7" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQS2#" class="0">
+<net name="D_DQS2_N" class="0">
 <segment>
 <wire x1="7.62" y1="81.28" x2="15.24" y2="81.28" width="0.1524" layer="91"/>
 <label x="12.7" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQS2" class="0">
+<net name="D_DQS2_P" class="0">
 <segment>
 <wire x1="7.62" y1="78.74" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
 <label x="12.7" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ18" class="0">
+<net name="D_D18" class="0">
 <segment>
 <wire x1="7.62" y1="73.66" x2="15.24" y2="73.66" width="0.1524" layer="91"/>
 <label x="12.7" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ19" class="0">
+<net name="D_D19" class="0">
 <segment>
 <wire x1="7.62" y1="71.12" x2="15.24" y2="71.12" width="0.1524" layer="91"/>
 <label x="12.7" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ24" class="0">
+<net name="D_D24" class="0">
 <segment>
 <wire x1="7.62" y1="66.04" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
 <label x="12.7" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ25" class="0">
+<net name="D_D25" class="0">
 <segment>
 <wire x1="7.62" y1="63.5" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
 <label x="12.7" y="63.5" size="1.778" layer="95"/>
@@ -3486,13 +3862,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="12.7" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ26" class="0">
+<net name="D_D26" class="0">
 <segment>
 <wire x1="7.62" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
 <label x="12.7" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_DQ27" class="0">
+<net name="D_D27" class="0">
 <segment>
 <wire x1="7.62" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
 <label x="12.7" y="50.8" size="1.778" layer="95"/>
@@ -3504,32 +3880,30 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="12.7" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_VDD" class="0">
-<segment>
-<wire x1="7.62" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
-<label x="12.7" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="7.62" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
-<label x="12.7" y="35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="7.62" y1="27.94" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
-<label x="12.7" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="7.62" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
-<label x="12.7" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="7.62" y1="12.7" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
-<label x="12.7" y="12.7" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="D_NC" class="0">
 <segment>
 <wire x1="7.62" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
 <label x="12.7" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
+<label x="53.34" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
+<label x="53.34" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
+<label x="35.56" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
+<label x="71.12" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
+<label x="71.12" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D_BA2" class="0">
@@ -3574,926 +3948,646 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="12.7" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_CK0" class="0">
+<net name="D_CLK0_P" class="0">
 <segment>
 <wire x1="7.62" y1="10.16" x2="15.24" y2="10.16" width="0.1524" layer="91"/>
 <label x="12.7" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<wire x1="30.48" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
-<label x="35.56" y="137.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$2" class="0">
+<net name="D_D4" class="0">
 <segment>
 <wire x1="30.48" y1="134.62" x2="38.1" y2="134.62" width="0.1524" layer="91"/>
 <label x="35.56" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="D_D5" class="0">
 <segment>
 <wire x1="30.48" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
 <label x="35.56" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="30.48" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
-<label x="35.56" y="129.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$5" class="0">
+<net name="D_DQS0_N" class="0">
 <segment>
 <wire x1="30.48" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
 <label x="35.56" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="D_DQS0_P" class="0">
 <segment>
 <wire x1="30.48" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
 <label x="35.56" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="30.48" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
-<label x="35.56" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$8" class="0">
+<net name="D_D6" class="0">
 <segment>
 <wire x1="30.48" y1="119.38" x2="38.1" y2="119.38" width="0.1524" layer="91"/>
 <label x="35.56" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="D_D7" class="0">
 <segment>
 <wire x1="30.48" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
 <label x="35.56" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<wire x1="30.48" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
-<label x="35.56" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$11" class="0">
+<net name="D_D12" class="0">
 <segment>
 <wire x1="30.48" y1="111.76" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
 <label x="35.56" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="D_D13" class="0">
 <segment>
 <wire x1="30.48" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
 <label x="35.56" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$13" class="0">
-<segment>
-<wire x1="30.48" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
-<label x="35.56" y="106.68" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$14" class="0">
+<net name="D_DM1" class="0">
 <segment>
 <wire x1="30.48" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
 <label x="35.56" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="D_RESET#" class="0">
 <segment>
 <wire x1="30.48" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
 <label x="35.56" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$16" class="0">
-<segment>
-<wire x1="30.48" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
-<label x="35.56" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$17" class="0">
+<net name="D_D14" class="0">
 <segment>
 <wire x1="30.48" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
 <label x="35.56" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="D_D15" class="0">
 <segment>
 <wire x1="30.48" y1="93.98" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
 <label x="35.56" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$19" class="0">
-<segment>
-<wire x1="30.48" y1="91.44" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
-<label x="35.56" y="91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$20" class="0">
+<net name="D_D20" class="0">
 <segment>
 <wire x1="30.48" y1="88.9" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
 <label x="35.56" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="D_D21" class="0">
 <segment>
 <wire x1="30.48" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
 <label x="35.56" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<wire x1="30.48" y1="83.82" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
-<label x="35.56" y="83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$23" class="0">
+<net name="D_DM2" class="0">
 <segment>
 <wire x1="30.48" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="35.56" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$24" class="0">
-<segment>
-<wire x1="30.48" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
-<label x="35.56" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$25" class="0">
+<net name="D_D22" class="0">
 <segment>
 <wire x1="30.48" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
 <label x="35.56" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="D_D23" class="0">
 <segment>
 <wire x1="30.48" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
 <label x="35.56" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$27" class="0">
-<segment>
-<wire x1="30.48" y1="71.12" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
-<label x="35.56" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$28" class="0">
+<net name="D_D28" class="0">
 <segment>
 <wire x1="30.48" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
 <label x="35.56" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="D_D29" class="0">
 <segment>
 <wire x1="30.48" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <label x="35.56" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$30" class="0">
-<segment>
-<wire x1="30.48" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
-<label x="35.56" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$31" class="0">
+<net name="D_DQ3_N" class="0">
 <segment>
 <wire x1="30.48" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 <label x="35.56" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$32" class="0">
-<segment>
-<wire x1="30.48" y1="58.42" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
-<label x="35.56" y="58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$33" class="0">
-<segment>
-<wire x1="30.48" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
-<label x="35.56" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$34" class="0">
+<net name="D_D30" class="0">
 <segment>
 <wire x1="30.48" y1="53.34" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
 <label x="35.56" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="D_D31" class="0">
 <segment>
 <wire x1="30.48" y1="50.8" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
 <label x="35.56" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$36" class="0">
-<segment>
-<wire x1="30.48" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
-<label x="35.56" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<wire x1="30.48" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
-<label x="35.56" y="45.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<wire x1="30.48" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
-<label x="35.56" y="43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$39" class="0">
+<net name="D_A15" class="0">
 <segment>
 <wire x1="30.48" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
 <label x="35.56" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$40" class="0">
+<net name="D_A14" class="0">
 <segment>
 <wire x1="30.48" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
 <label x="35.56" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$41" class="0">
-<segment>
-<wire x1="30.48" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
-<label x="35.56" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$42" class="0">
+<net name="D_A11" class="0">
 <segment>
 <wire x1="30.48" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
 <label x="35.56" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="D_A7" class="0">
 <segment>
 <wire x1="30.48" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
 <label x="35.56" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$44" class="0">
-<segment>
-<wire x1="30.48" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
-<label x="35.56" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$45" class="0">
+<net name="D_A6" class="0">
 <segment>
 <wire x1="30.48" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <label x="35.56" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$46" class="0">
+<net name="D_A4" class="0">
 <segment>
 <wire x1="30.48" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
 <label x="35.56" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$47" class="0">
-<segment>
-<wire x1="30.48" y1="20.32" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
-<label x="35.56" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$48" class="0">
+<net name="D_A2" class="0">
 <segment>
 <wire x1="30.48" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
 <label x="35.56" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$49" class="0">
+<net name="D_A0" class="0">
 <segment>
 <wire x1="30.48" y1="15.24" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
 <label x="35.56" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$50" class="0">
-<segment>
-<wire x1="30.48" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
-<label x="35.56" y="12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$51" class="0">
+<net name="D_CLK1_P" class="0">
 <segment>
 <wire x1="30.48" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
 <label x="35.56" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$52" class="0">
+<net name="D_CK1_N" class="0">
 <segment>
 <wire x1="68.58" y1="137.16" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
 <label x="71.12" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$53" class="0">
+<net name="D_CLK0_N" class="0">
 <segment>
 <wire x1="50.8" y1="137.16" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
 <label x="53.34" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$54" class="0">
-<segment>
-<wire x1="50.8" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
-<label x="53.34" y="134.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$55" class="0">
+<net name="D_A10" class="0">
 <segment>
 <wire x1="50.8" y1="132.08" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
 <label x="53.34" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$56" class="0">
+<net name="D_BA0" class="0">
 <segment>
 <wire x1="50.8" y1="129.54" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 <label x="53.34" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$57" class="0">
-<segment>
-<wire x1="50.8" y1="127" x2="58.42" y2="127" width="0.1524" layer="91"/>
-<label x="53.34" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$58" class="0">
+<net name="D_WE_N" class="0">
 <segment>
 <wire x1="50.8" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
 <label x="53.34" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$59" class="0">
+<net name="D_CAS_N" class="0">
 <segment>
 <wire x1="50.8" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
 <label x="53.34" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$60" class="0">
-<segment>
-<wire x1="50.8" y1="119.38" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
-<label x="53.34" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$61" class="0">
+<net name="D_A13" class="0">
 <segment>
 <wire x1="50.8" y1="116.84" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
 <label x="53.34" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$62" class="0">
-<segment>
-<wire x1="50.8" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
-<label x="53.34" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$63" class="0">
-<segment>
-<wire x1="50.8" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
-<label x="53.34" y="111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$64" class="0">
-<segment>
-<wire x1="50.8" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
-<label x="53.34" y="109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$65" class="0">
-<segment>
-<wire x1="50.8" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
-<label x="53.34" y="106.68" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$66" class="0">
-<segment>
-<wire x1="68.58" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
-<label x="71.12" y="134.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$67" class="0">
+<net name="D_BA1" class="0">
 <segment>
 <wire x1="68.58" y1="132.08" x2="76.2" y2="132.08" width="0.1524" layer="91"/>
 <label x="71.12" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$68" class="0">
+<net name="D_RAS_N" class="0">
 <segment>
 <wire x1="68.58" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
 <label x="71.12" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$69" class="0">
-<segment>
-<wire x1="68.58" y1="127" x2="76.2" y2="127" width="0.1524" layer="91"/>
-<label x="71.12" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$70" class="0">
+<net name="D_S0_N" class="0">
 <segment>
 <wire x1="68.58" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
 <label x="71.12" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$71" class="0">
+<net name="D_ODT0" class="0">
 <segment>
 <wire x1="68.58" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 <label x="71.12" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$72" class="0">
-<segment>
-<wire x1="68.58" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
-<label x="71.12" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$73" class="0">
-<segment>
-<wire x1="68.58" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
-<label x="71.12" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$74" class="0">
-<segment>
-<wire x1="68.58" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
-<label x="71.12" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$75" class="0">
-<segment>
-<wire x1="68.58" y1="111.76" x2="76.2" y2="111.76" width="0.1524" layer="91"/>
-<label x="71.12" y="111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$76" class="0">
-<segment>
-<wire x1="68.58" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
-<label x="71.12" y="109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$77" class="0">
-<segment>
-<wire x1="68.58" y1="106.68" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
-<label x="71.12" y="106.68" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$78" class="0">
+<net name="D_D36" class="0">
 <segment>
 <wire x1="68.58" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 <label x="71.12" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$79" class="0">
+<net name="D_D32" class="0">
 <segment>
 <wire x1="50.8" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
 <label x="53.34" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$80" class="0">
+<net name="D_D33" class="0">
 <segment>
 <wire x1="50.8" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
 <label x="53.34" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$81" class="0">
-<segment>
-<wire x1="50.8" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<label x="53.34" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$82" class="0">
+<net name="D_DQS4_N" class="0">
 <segment>
 <wire x1="50.8" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
 <label x="53.34" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$83" class="0">
+<net name="D_DQS4_P" class="0">
 <segment>
 <wire x1="50.8" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
 <label x="53.34" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$84" class="0">
-<segment>
-<wire x1="50.8" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
-<label x="53.34" y="91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$85" class="0">
+<net name="D_D34" class="0">
 <segment>
 <wire x1="50.8" y1="88.9" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
 <label x="53.34" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$86" class="0">
+<net name="D_D35" class="0">
 <segment>
 <wire x1="50.8" y1="86.36" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
 <label x="53.34" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$87" class="0">
-<segment>
-<wire x1="50.8" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
-<label x="53.34" y="83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$88" class="0">
+<net name="D_D40" class="0">
 <segment>
 <wire x1="50.8" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
 <label x="53.34" y="81.28" size="1.778" layer="95"/>
 <label x="53.34" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$89" class="0">
+<net name="D_D41" class="0">
 <segment>
 <wire x1="50.8" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 <label x="53.34" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$90" class="0">
-<segment>
-<wire x1="50.8" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
-<label x="53.34" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$91" class="0">
+<net name="D_DM5" class="0">
 <segment>
 <wire x1="50.8" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
 <label x="53.34" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$92" class="0">
-<segment>
-<wire x1="50.8" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
-<label x="53.34" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$93" class="0">
+<net name="D_D42" class="0">
 <segment>
 <wire x1="50.8" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
 <label x="53.34" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$94" class="0">
+<net name="D_D43" class="0">
 <segment>
 <wire x1="50.8" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
 <label x="53.34" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$95" class="0">
+<net name="D_D37" class="0">
 <segment>
 <wire x1="68.58" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
 <label x="71.12" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$96" class="0">
-<segment>
-<wire x1="68.58" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
-<label x="71.12" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$97" class="0">
+<net name="D_DM4" class="0">
 <segment>
 <wire x1="68.58" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
 <label x="71.12" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$98" class="0">
-<segment>
-<wire x1="68.58" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
-<label x="71.12" y="93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$99" class="0">
+<net name="D_D38" class="0">
 <segment>
 <wire x1="68.58" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
 <label x="71.12" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$100" class="0">
+<net name="D_D39" class="0">
 <segment>
 <wire x1="68.58" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
 <label x="71.12" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$101" class="0">
-<segment>
-<wire x1="68.58" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
-<label x="71.12" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$102" class="0">
+<net name="D_D44" class="0">
 <segment>
 <wire x1="68.58" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
 <label x="71.12" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$103" class="0">
+<net name="D_D45" class="0">
 <segment>
 <wire x1="68.58" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
 <label x="71.12" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$104" class="0">
-<segment>
-<wire x1="68.58" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
-<label x="71.12" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$105" class="0">
+<net name="D_DQS5_N" class="0">
 <segment>
 <wire x1="68.58" y1="76.2" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
 <label x="71.12" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$106" class="0">
+<net name="D_DQS5_P" class="0">
 <segment>
 <wire x1="68.58" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
 <label x="71.12" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$107" class="0">
-<segment>
-<wire x1="68.58" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
-<label x="71.12" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$108" class="0">
+<net name="D_D46" class="0">
 <segment>
 <wire x1="68.58" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
 <label x="71.12" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$109" class="0">
+<net name="D_D47" class="0">
 <segment>
 <wire x1="68.58" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
 <label x="71.12" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$110" class="0">
-<segment>
-<wire x1="50.8" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
-<label x="53.34" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$111" class="0">
+<net name="D_D48" class="0">
 <segment>
 <wire x1="50.8" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
 <label x="53.34" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$112" class="0">
+<net name="D_D49" class="0">
 <segment>
 <wire x1="50.8" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
 <label x="53.34" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$113" class="0">
-<segment>
-<wire x1="50.8" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
-<label x="53.34" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$114" class="0">
+<net name="D_DQS6_N" class="0">
 <segment>
 <wire x1="50.8" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
 <label x="53.34" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$115" class="0">
+<net name="D_DQS6_P" class="0">
 <segment>
 <wire x1="58.42" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
 <label x="53.34" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$116" class="0">
-<segment>
-<wire x1="50.8" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
-<label x="53.34" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$117" class="0">
+<net name="D_D50" class="0">
 <segment>
 <wire x1="50.8" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
 <label x="53.34" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$118" class="0">
-<segment>
-<wire x1="50.8" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
-<label x="53.34" y="43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$119" class="0">
-<segment>
-<wire x1="50.8" y1="40.64" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
-<label x="53.34" y="40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$120" class="0">
+<net name="D_D56" class="0">
 <segment>
 <wire x1="50.8" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
 <label x="53.34" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$121" class="0">
+<net name="D_D57" class="0">
 <segment>
 <wire x1="50.8" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
 <label x="53.34" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$122" class="0">
-<segment>
-<wire x1="50.8" y1="33.02" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
-<label x="53.34" y="33.02" size="1.778" layer="95"/>
-<label x="53.34" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$123" class="0">
-<segment>
-<wire x1="50.8" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$124" class="0">
-<segment>
-<wire x1="50.8" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
-<label x="53.34" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$125" class="0">
-<segment>
-<wire x1="68.58" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
-<label x="71.12" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$126" class="0">
+<net name="D_D52" class="0">
 <segment>
 <wire x1="68.58" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
 <label x="71.12" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$127" class="0">
+<net name="D_D53" class="0">
 <segment>
 <wire x1="68.58" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
 <label x="71.12" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$128" class="0">
-<segment>
-<wire x1="68.58" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
-<label x="71.12" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$129" class="0">
+<net name="D_DM6" class="0">
 <segment>
 <wire x1="68.58" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
 <label x="71.12" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$130" class="0">
-<segment>
-<wire x1="68.58" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
-<label x="71.12" y="50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$131" class="0">
+<net name="D_D54" class="0">
 <segment>
 <wire x1="68.58" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
 <label x="71.12" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$132" class="0">
-<segment>
-<wire x1="68.58" y1="45.72" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
-<label x="71.12" y="45.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$133" class="0">
-<segment>
-<wire x1="68.58" y1="43.18" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
-<label x="71.12" y="43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$134" class="0">
+<net name="D_D60" class="0">
 <segment>
 <wire x1="68.58" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 <label x="71.12" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$135" class="0">
+<net name="D_D61" class="0">
 <segment>
 <wire x1="76.2" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 <label x="71.12" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$136" class="0">
-<segment>
-<wire x1="68.58" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
-<label x="71.12" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$137" class="0">
+<net name="D_DQS7_N" class="0">
 <segment>
 <wire x1="68.58" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
 <label x="71.12" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$138" class="0">
+<net name="D_DQS7_P" class="0">
 <segment>
 <wire x1="68.58" y1="30.48" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
 <label x="71.12" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$139" class="0">
-<segment>
-<wire x1="68.58" y1="27.94" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
-<label x="71.12" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$140" class="0">
+<net name="D_D58" class="0">
 <segment>
 <wire x1="50.8" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
 <label x="53.34" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$141" class="0">
+<net name="D_D59" class="0">
 <segment>
 <wire x1="50.8" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
 <label x="53.34" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$142" class="0">
-<segment>
-<wire x1="50.8" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
-<label x="53.34" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$143" class="0">
+<net name="D_SA0" class="0">
 <segment>
 <wire x1="50.8" y1="17.78" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
 <label x="53.34" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$144" class="0">
+<net name="VCC3V3" class="0">
 <segment>
 <wire x1="50.8" y1="15.24" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
 <label x="53.34" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$145" class="0">
+<net name="D_SA1" class="0">
 <segment>
 <wire x1="50.8" y1="12.7" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
 <label x="53.34" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$146" class="0">
-<segment>
-<wire x1="50.8" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
-<label x="53.34" y="10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$147" class="0">
+<net name="D_D62" class="0">
 <segment>
 <wire x1="68.58" y1="25.4" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
 <label x="71.12" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$148" class="0">
+<net name="D_D63" class="0">
 <segment>
 <wire x1="68.58" y1="22.86" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
 <label x="71.12" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$149" class="0">
-<segment>
-<wire x1="68.58" y1="20.32" x2="76.2" y2="20.32" width="0.1524" layer="91"/>
-<label x="71.12" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$150" class="0">
+<net name="D_NF" class="0">
 <segment>
 <wire x1="68.58" y1="17.78" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
 <label x="71.12" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$151" class="0">
+<net name="D_SDA" class="0">
 <segment>
 <wire x1="68.58" y1="15.24" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
 <label x="71.12" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$152" class="0">
+<net name="D_SCL" class="0">
 <segment>
 <wire x1="68.58" y1="12.7" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
 <label x="71.12" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$153" class="0">
+<net name="D_D51" class="0">
+<segment>
+<wire x1="50.8" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<label x="53.34" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D_DM7" class="0">
+<segment>
+<wire x1="50.8" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
+<label x="53.34" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D_D55" class="0">
+<segment>
+<wire x1="68.58" y1="45.72" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
+<label x="71.12" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D_D3" class="0">
+<segment>
+<wire x1="7.62" y1="116.84" x2="15.24" y2="116.84" width="0.1524" layer="91"/>
+<label x="12.7" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC1V5_FPGA" class="0">
+<segment>
+<wire x1="7.62" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
+<label x="12.7" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="7.62" y1="27.94" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
+<label x="12.7" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="7.62" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
+<label x="12.7" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="7.62" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
+<label x="12.7" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="7.62" y1="12.7" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
+<label x="12.7" y="12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
+<label x="35.56" y="12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="20.32" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
+<label x="35.56" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
+<label x="35.56" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
+<label x="35.56" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
+<label x="35.56" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
+<label x="53.34" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="127" x2="58.42" y2="127" width="0.1524" layer="91"/>
+<label x="53.34" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="119.38" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
+<label x="53.34" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
+<label x="53.34" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
+<label x="71.12" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="127" x2="76.2" y2="127" width="0.1524" layer="91"/>
+<label x="71.12" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
+<label x="71.12" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VTTDDR" class="0">
+<segment>
+<wire x1="50.8" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
+<label x="53.34" y="10.16" size="1.778" layer="95"/>
+</segment>
 <segment>
 <wire x1="68.58" y1="10.16" x2="76.2" y2="10.16" width="0.1524" layer="91"/>
 <label x="71.12" y="10.16" size="1.778" layer="95"/>

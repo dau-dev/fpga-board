@@ -1417,6 +1417,18 @@ design rules under a new name.</description>
 <wire x1="36.49" y1="32.87" x2="39.49" y2="33.87" width="0" layer="19" extent="1-1"/>
 <wire x1="37.49" y1="29.87" x2="40.49" y2="30.87" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="D_D51">
+</signal>
+<signal name="D_D55">
+</signal>
+<signal name="D_VSS">
+</signal>
+<signal name="D_D3">
+</signal>
+<signal name="VTTDDR">
+</signal>
+<signal name="VTTVREF">
+</signal>
 </signals>
 </board>
 </drawing>
