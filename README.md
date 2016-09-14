@@ -1,5 +1,5 @@
 # fpga-board
-A minimal complexity fpga board
+Based on the Xilinx AC701 and KC705 reference designs, this board was created to address the dearth of PCIe and DDR SODIMM capable board for less than $1000.
 
 ##Features
 - Kintex 7 FPGA (160k)
