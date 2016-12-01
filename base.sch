@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3047,6 +3047,265 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="con-pcie-x4 short card">
+<description>PCI-Express 16x  connectors, 164 contacts  (2*82)
+Included: Trough-hole connector and edge-card pattern
+
+Manufacturer: FCI  Reference: 10018783-10113TLF
+
+Reference Radiospares: 615-9530 
+Reference Digikey: 609-1975-ND</description>
+<packages>
+<package name="PCIEX4_SMALL_CARD">
+<wire x1="-12.91" y1="-3.73" x2="-12.91" y2="1.67" width="0.07" layer="21"/>
+<wire x1="-12.91" y1="-3.73" x2="-12.61" y2="-4.03" width="0.07" layer="20"/>
+<wire x1="-12.61" y1="-4.03" x2="-2.21" y2="-4.03" width="0.07" layer="21"/>
+<wire x1="0.09" y1="1.57" x2="0.09" y2="-3.73" width="0.07" layer="20"/>
+<wire x1="-1.91" y1="-3.73" x2="-1.91" y2="1.57" width="0.07" layer="20"/>
+<wire x1="-2.21" y1="-4.03" x2="-1.91" y2="-3.73" width="0.07" layer="20"/>
+<wire x1="0.09" y1="-3.73" x2="0.39" y2="-4.03" width="0.07" layer="20"/>
+<wire x1="21.09" y1="0.77" x2="21.09" y2="-3.73" width="0.07" layer="20"/>
+<wire x1="21.09" y1="-3.73" x2="20.76" y2="-4.03" width="0.07" layer="20"/>
+<wire x1="0.39" y1="-4.03" x2="20.76" y2="-4.03" width="0.07" layer="21"/>
+<wire x1="-1.91" y1="1.62" x2="-1.91" y2="3.72" width="0.07" layer="23"/>
+<wire x1="0.09" y1="1.57" x2="0.09" y2="3.72" width="0.07" layer="23"/>
+<wire x1="-1.91" y1="3.72" x2="0.09" y2="3.72" width="0.07" layer="23" curve="-180"/>
+<wire x1="-17.91" y1="0.67" x2="-24.21" y2="0.67" width="0.07" layer="23"/>
+<wire x1="-17.91" y1="4.97" x2="-15.41" y2="7.47" width="0.07" layer="23" curve="-90"/>
+<wire x1="-15.41" y1="7.47" x2="-12.91" y2="4.97" width="0.07" layer="23" curve="-90"/>
+<wire x1="-17.91" y1="4.97" x2="-17.91" y2="0.67" width="0.07" layer="23"/>
+<wire x1="-12.91" y1="1.57" x2="-12.91" y2="4.97" width="0.07" layer="23"/>
+<wire x1="21.09" y1="7.47" x2="21.09" y2="0.77" width="0.07" layer="23"/>
+<wire x1="21.09" y1="7.47" x2="25" y2="7.47" width="0.07" layer="23"/>
+<smd name="B2" x="-11.41" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B1" x="-12.41" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B3" x="-10.41" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B4" x="-9.41" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B5" x="-8.41" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B6" x="-7.41" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B7" x="-6.41" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B8" x="-5.41" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B9" x="-4.41" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B10" x="-3.41" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B11" x="-2.41" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B12" x="0.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B13" x="1.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B14" x="2.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B15" x="3.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B16" x="4.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B17" x="5.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B18" x="6.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B19" x="7.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B20" x="8.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B21" x="9.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B22" x="10.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B23" x="11.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B24" x="12.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B25" x="13.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B26" x="14.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B27" x="15.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B28" x="16.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B29" x="17.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B30" x="18.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B31" x="19.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="B32" x="20.59" y="-0.33" dx="4" dy="0.7" layer="1" roundness="40" rot="R90"/>
+<smd name="A1" x="-12.41" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A2" x="-11.41" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A3" x="-10.41" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A4" x="-9.41" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A5" x="-8.41" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A6" x="-7.41" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A7" x="-6.41" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A8" x="-5.41" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A9" x="-4.41" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A10" x="-3.41" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A11" x="-2.41" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A12" x="0.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A13" x="1.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A14" x="2.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A15" x="3.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A16" x="4.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A17" x="5.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A18" x="6.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A19" x="7.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A20" x="8.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A21" x="9.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A22" x="10.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A23" x="11.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A24" x="12.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A25" x="13.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A26" x="14.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A27" x="15.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A28" x="16.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A29" x="17.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A30" x="18.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A31" x="19.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<smd name="A32" x="20.59" y="-0.33" dx="4" dy="0.7" layer="16" roundness="40" rot="R90"/>
+<wire x1="-60.03" y1="69.57" x2="-60.03" y2="0.67" width="0.07" layer="21"/>
+<wire x1="-47.5" y1="0.67" x2="-60.03" y2="0.67" width="0.07" layer="21"/>
+<wire x1="-24.2" y1="0.7" x2="-24.2" y2="7.4" width="0.07" layer="21"/>
+<wire x1="-24.2" y1="7.4" x2="-47.5" y2="7.4" width="0.07" layer="21"/>
+<wire x1="-47.5" y1="7.4" x2="-47.5" y2="0.7" width="0.07" layer="21"/>
+<wire x1="-47.5" y1="0.67" x2="-47.5" y2="0.7" width="0.07" layer="21"/>
+<wire x1="-60" y1="69.6" x2="25" y2="69.6" width="0.07" layer="21"/>
+<wire x1="25" y1="69.6" x2="25" y2="7.47" width="0.07" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PCIEX4">
+<wire x1="33.02" y1="154.94" x2="50.8" y2="154.94" width="0.254" layer="94"/>
+<wire x1="50.8" y1="154.94" x2="50.8" y2="68.58" width="0.254" layer="94"/>
+<wire x1="50.8" y1="68.58" x2="33.02" y2="68.58" width="0.254" layer="94"/>
+<wire x1="33.02" y1="68.58" x2="33.02" y2="154.94" width="0.254" layer="94"/>
+<text x="43.18" y="91.44" size="1.27" layer="95" rot="R90">&gt;NAME</text>
+<text x="43.18" y="144.78" size="1.27" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="A1" x="27.94" y="152.4" length="middle"/>
+<pin name="A2" x="27.94" y="149.86" length="middle"/>
+<pin name="A3" x="27.94" y="147.32" length="middle"/>
+<pin name="A4" x="27.94" y="144.78" length="middle"/>
+<pin name="A5" x="27.94" y="142.24" length="middle"/>
+<pin name="A6" x="27.94" y="139.7" length="middle"/>
+<pin name="A7" x="27.94" y="137.16" length="middle"/>
+<pin name="A8" x="27.94" y="134.62" length="middle"/>
+<pin name="A9" x="27.94" y="132.08" length="middle"/>
+<pin name="A10" x="27.94" y="129.54" length="middle"/>
+<pin name="A11" x="27.94" y="127" length="middle"/>
+<pin name="A12" x="27.94" y="121.92" length="middle"/>
+<pin name="A13" x="27.94" y="119.38" length="middle"/>
+<pin name="A14" x="27.94" y="116.84" length="middle"/>
+<pin name="A15" x="27.94" y="114.3" length="middle"/>
+<pin name="A16" x="27.94" y="111.76" length="middle"/>
+<pin name="A17" x="27.94" y="109.22" length="middle"/>
+<pin name="A18" x="27.94" y="106.68" length="middle"/>
+<pin name="A19" x="27.94" y="104.14" length="middle"/>
+<pin name="A20" x="27.94" y="101.6" length="middle"/>
+<pin name="A21" x="27.94" y="99.06" length="middle"/>
+<pin name="A22" x="27.94" y="96.52" length="middle"/>
+<pin name="A23" x="27.94" y="93.98" length="middle"/>
+<pin name="A24" x="27.94" y="91.44" length="middle"/>
+<pin name="A25" x="27.94" y="88.9" length="middle"/>
+<pin name="A26" x="27.94" y="86.36" length="middle"/>
+<pin name="A27" x="27.94" y="83.82" length="middle"/>
+<pin name="A28" x="27.94" y="81.28" length="middle"/>
+<pin name="A29" x="27.94" y="78.74" length="middle"/>
+<pin name="A30" x="27.94" y="76.2" length="middle"/>
+<pin name="A31" x="27.94" y="73.66" length="middle"/>
+<pin name="A32" x="27.94" y="71.12" length="middle"/>
+<pin name="B1" x="55.88" y="152.4" length="middle" rot="R180"/>
+<pin name="B2" x="55.88" y="149.86" length="middle" rot="R180"/>
+<pin name="B3" x="55.88" y="147.32" length="middle" rot="R180"/>
+<pin name="B4" x="55.88" y="144.78" length="middle" rot="R180"/>
+<pin name="B5" x="55.88" y="142.24" length="middle" rot="R180"/>
+<pin name="B6" x="55.88" y="139.7" length="middle" rot="R180"/>
+<pin name="B7" x="55.88" y="137.16" length="middle" rot="R180"/>
+<pin name="B8" x="55.88" y="134.62" length="middle" rot="R180"/>
+<pin name="B9" x="55.88" y="132.08" length="middle" rot="R180"/>
+<pin name="B10" x="55.88" y="129.54" length="middle" rot="R180"/>
+<pin name="B11" x="55.88" y="127" length="middle" rot="R180"/>
+<pin name="B12" x="55.88" y="121.92" length="middle" rot="R180"/>
+<pin name="B13" x="55.88" y="119.38" length="middle" rot="R180"/>
+<pin name="B14" x="55.88" y="116.84" length="middle" rot="R180"/>
+<pin name="B15" x="55.88" y="114.3" length="middle" rot="R180"/>
+<pin name="B16" x="55.88" y="111.76" length="middle" rot="R180"/>
+<pin name="B17" x="55.88" y="109.22" length="middle" rot="R180"/>
+<pin name="B18" x="55.88" y="106.68" length="middle" rot="R180"/>
+<pin name="B19" x="55.88" y="104.14" length="middle" rot="R180"/>
+<pin name="B20" x="55.88" y="101.6" length="middle" rot="R180"/>
+<pin name="B21" x="55.88" y="99.06" length="middle" rot="R180"/>
+<pin name="B22" x="55.88" y="96.52" length="middle" rot="R180"/>
+<pin name="B23" x="55.88" y="93.98" length="middle" rot="R180"/>
+<pin name="B24" x="55.88" y="91.44" length="middle" rot="R180"/>
+<pin name="B25" x="55.88" y="88.9" length="middle" rot="R180"/>
+<pin name="B26" x="55.88" y="86.36" length="middle" rot="R180"/>
+<pin name="B27" x="55.88" y="83.82" length="middle" rot="R180"/>
+<pin name="B28" x="55.88" y="81.28" length="middle" rot="R180"/>
+<pin name="B29" x="55.88" y="78.74" length="middle" rot="R180"/>
+<pin name="B30" x="55.88" y="76.2" length="middle" rot="R180"/>
+<pin name="B31" x="55.88" y="73.66" length="middle" rot="R180"/>
+<pin name="B32" x="55.88" y="71.12" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PCIEX4_SMALL_CARD">
+<gates>
+<gate name="G$1" symbol="PCIEX4" x="-43.18" y="-101.6"/>
+</gates>
+<devices>
+<device name="" package="PCIEX4_SMALL_CARD">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A10" pad="A10"/>
+<connect gate="G$1" pin="A11" pad="A11"/>
+<connect gate="G$1" pin="A12" pad="A12"/>
+<connect gate="G$1" pin="A13" pad="A13"/>
+<connect gate="G$1" pin="A14" pad="A14"/>
+<connect gate="G$1" pin="A15" pad="A15"/>
+<connect gate="G$1" pin="A16" pad="A16"/>
+<connect gate="G$1" pin="A17" pad="A17"/>
+<connect gate="G$1" pin="A18" pad="A18"/>
+<connect gate="G$1" pin="A19" pad="A19"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A20" pad="A20"/>
+<connect gate="G$1" pin="A21" pad="A21"/>
+<connect gate="G$1" pin="A22" pad="A22"/>
+<connect gate="G$1" pin="A23" pad="A23"/>
+<connect gate="G$1" pin="A24" pad="A24"/>
+<connect gate="G$1" pin="A25" pad="A25"/>
+<connect gate="G$1" pin="A26" pad="A26"/>
+<connect gate="G$1" pin="A27" pad="A27"/>
+<connect gate="G$1" pin="A28" pad="A28"/>
+<connect gate="G$1" pin="A29" pad="A29"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A30" pad="A30"/>
+<connect gate="G$1" pin="A31" pad="A31"/>
+<connect gate="G$1" pin="A32" pad="A32"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="A8" pad="A8"/>
+<connect gate="G$1" pin="A9" pad="A9"/>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="B10" pad="B10"/>
+<connect gate="G$1" pin="B11" pad="B11"/>
+<connect gate="G$1" pin="B12" pad="B12"/>
+<connect gate="G$1" pin="B13" pad="B13"/>
+<connect gate="G$1" pin="B14" pad="B14"/>
+<connect gate="G$1" pin="B15" pad="B15"/>
+<connect gate="G$1" pin="B16" pad="B16"/>
+<connect gate="G$1" pin="B17" pad="B17"/>
+<connect gate="G$1" pin="B18" pad="B18"/>
+<connect gate="G$1" pin="B19" pad="B19"/>
+<connect gate="G$1" pin="B2" pad="B2"/>
+<connect gate="G$1" pin="B20" pad="B20"/>
+<connect gate="G$1" pin="B21" pad="B21"/>
+<connect gate="G$1" pin="B22" pad="B22"/>
+<connect gate="G$1" pin="B23" pad="B23"/>
+<connect gate="G$1" pin="B24" pad="B24"/>
+<connect gate="G$1" pin="B25" pad="B25"/>
+<connect gate="G$1" pin="B26" pad="B26"/>
+<connect gate="G$1" pin="B27" pad="B27"/>
+<connect gate="G$1" pin="B28" pad="B28"/>
+<connect gate="G$1" pin="B29" pad="B29"/>
+<connect gate="G$1" pin="B3" pad="B3"/>
+<connect gate="G$1" pin="B30" pad="B30"/>
+<connect gate="G$1" pin="B31" pad="B31"/>
+<connect gate="G$1" pin="B32" pad="B32"/>
+<connect gate="G$1" pin="B4" pad="B4"/>
+<connect gate="G$1" pin="B5" pad="B5"/>
+<connect gate="G$1" pin="B6" pad="B6"/>
+<connect gate="G$1" pin="B7" pad="B7"/>
+<connect gate="G$1" pin="B8" pad="B8"/>
+<connect gate="G$1" pin="B9" pad="B9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3060,6 +3319,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J1" library="AS0A626-U2SN-7F" deviceset="AS0A626-U2SN-7F" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="U2" library="xilinx_devices_V6" deviceset="XC7K160TFBG676" device=""/>
+<part name="U$1" library="con-pcie-x4 short card" deviceset="PCIEX4_SMALL_CARD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3087,6 +3347,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="U2" gate="BVCCAUX" x="-25.4" y="-500.38"/>
 <instance part="U2" gate="BVCCAUX_IO" x="-25.4" y="-530.86"/>
 <instance part="U2" gate="BVCCBRAM" x="25.4" y="-462.28"/>
+<instance part="U$1" gate="G$1" x="198.12" y="-266.7"/>
 </instances>
 <busses>
 </busses>
