@@ -1663,6 +1663,18 @@ design rules under a new name.</description>
 <attribute name="SPICEMODEL" value="NONE" x="16.51" y="-26.67" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="16.51" y="-26.67" size="1.778" layer="27" display="off"/>
 </element>
+<element name="C402" library="eagle-ltspice" package="C1206" value="100UF" x="17.78" y="-33.02">
+<attribute name="SPICEMODEL" value="NONE" x="17.78" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="17.78" y="-33.02" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C463" library="eagle-ltspice" package="C0402" value="0.1UF" x="16.51" y="-39.37">
+<attribute name="SPICEMODEL" value="NONE" x="16.51" y="-39.37" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="16.51" y="-39.37" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C492" library="eagle-ltspice" package="C0402" value="0.1UF" x="16.51" y="-44.45">
+<attribute name="SPICEMODEL" value="NONE" x="16.51" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="16.51" y="-44.45" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="FPGA_VBATT">
@@ -1892,6 +1904,9 @@ design rules under a new name.</description>
 <contactref element="C158" pad="2"/>
 <contactref element="C462" pad="2"/>
 <contactref element="C491" pad="2"/>
+<contactref element="C402" pad="2"/>
+<contactref element="C463" pad="2"/>
+<contactref element="C492" pad="2"/>
 <wire x1="78.08" y1="63.57" x2="81.08" y2="64.57" width="0" layer="19" extent="1-1"/>
 <wire x1="79.08" y1="60.57" x2="78.08" y2="63.57" width="0" layer="19" extent="1-1"/>
 <wire x1="80.08" y1="57.57" x2="79.08" y2="60.57" width="0" layer="19" extent="1-1"/>
@@ -2024,6 +2039,9 @@ design rules under a new name.</description>
 <wire x1="19.18" y1="-15.24" x2="19.18" y2="-8.89" width="0" layer="19" extent="1-1"/>
 <wire x1="17.16" y1="-21.59" x2="19.18" y2="-15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="17.16" y1="-26.67" x2="17.16" y2="-21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="19.18" y1="-33.02" x2="17.16" y2="-26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="17.16" y1="-39.37" x2="19.18" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="17.16" y1="-44.45" x2="17.16" y2="-39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R83" pad="2"/>
@@ -2159,8 +2177,11 @@ design rules under a new name.</description>
 <contactref element="U1" pad="K4"/>
 <contactref element="U1" pad="M8"/>
 <contactref element="C158" pad="1"/>
-<wire x1="60.08" y1="52.57" x2="63.08" y2="53.57" width="0" layer="19" extent="1-1"/>
-<wire x1="59.08" y1="55.57" x2="60.08" y2="52.57" width="0" layer="19" extent="1-1"/>
+<contactref element="C402" pad="1"/>
+<contactref element="U1" pad="F6"/>
+<wire x1="59.08" y1="55.57" x2="61.08" y2="59.57" width="0" layer="19" extent="1-1"/>
+<wire x1="60.08" y1="52.57" x2="59.08" y2="55.57" width="0" layer="19" extent="1-1"/>
+<wire x1="63.08" y1="53.57" x2="60.08" y2="52.57" width="0" layer="19" extent="1-1"/>
 <wire x1="56.08" y1="54.57" x2="59.08" y2="55.57" width="0" layer="19" extent="1-1"/>
 <wire x1="61.08" y1="49.57" x2="60.08" y2="52.57" width="0" layer="19" extent="1-1"/>
 <wire x1="62.08" y1="46.57" x2="61.08" y2="49.57" width="0" layer="19" extent="1-1"/>
@@ -2172,6 +2193,7 @@ design rules under a new name.</description>
 <wire x1="57.08" y1="41.57" x2="60.08" y2="42.57" width="0" layer="19" extent="1-1"/>
 <wire x1="16.38" y1="-8.89" x2="57.08" y2="41.57" width="0" layer="19" extent="1-1"/>
 <wire x1="16.38" y1="-15.24" x2="16.38" y2="-8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="16.38" y1="-33.02" x2="16.38" y2="-15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="U1" pad="V4"/>
@@ -2470,9 +2492,6 @@ design rules under a new name.</description>
 <signal name="N$118">
 <contactref element="U1" pad="D2"/>
 </signal>
-<signal name="N$119">
-<contactref element="U1" pad="F6"/>
-</signal>
 <signal name="N$120">
 <contactref element="U1" pad="G3"/>
 </signal>
@@ -2482,148 +2501,142 @@ design rules under a new name.</description>
 <signal name="N$122">
 <contactref element="U1" pad="J8"/>
 </signal>
-<signal name="N$123">
+<signal name="DDR3_D63">
 <contactref element="U1" pad="E6"/>
 </signal>
-<signal name="N$124">
+<signal name="DDR3_D62">
 <contactref element="U1" pad="D6"/>
 </signal>
-<signal name="N$125">
+<signal name="DDR3_D61">
 <contactref element="U1" pad="H8"/>
 </signal>
-<signal name="N$126">
+<signal name="DDR3_D60">
 <contactref element="U1" pad="G8"/>
 </signal>
-<signal name="N$127">
+<signal name="DDR3_DQS7_P">
 <contactref element="U1" pad="H7"/>
 </signal>
-<signal name="N$128">
+<signal name="DDR3_DQS7_N">
 <contactref element="U1" pad="G7"/>
 </signal>
-<signal name="N$129">
+<signal name="DDR3_D59">
 <contactref element="U1" pad="F8"/>
 </signal>
-<signal name="N$130">
+<signal name="DDR3_D58">
 <contactref element="U1" pad="F7"/>
 </signal>
-<signal name="N$131">
+<signal name="DDR3_D57">
 <contactref element="U1" pad="H6"/>
 </signal>
-<signal name="N$132">
+<signal name="DDR3_D56">
 <contactref element="U1" pad="G6"/>
 </signal>
-<signal name="N$133">
+<signal name="DDR3_DM7">
 <contactref element="U1" pad="H9"/>
 </signal>
-<signal name="N$134">
-<contactref element="U1" pad="G9"/>
-</signal>
-<signal name="N$135">
+<signal name="DDR3_D55">
 <contactref element="U1" pad="J6"/>
 </signal>
-<signal name="N$136">
+<signal name="DDR3_D54">
 <contactref element="U1" pad="J5"/>
 </signal>
-<signal name="N$137">
+<signal name="DDR3_D53">
 <contactref element="U1" pad="L8"/>
 </signal>
-<signal name="N$138">
+<signal name="DDR3_D52">
 <contactref element="U1" pad="K8"/>
 </signal>
-<signal name="N$139">
+<signal name="DDR3_DQS6_P">
 <contactref element="U1" pad="J4"/>
 </signal>
-<signal name="N$140">
+<signal name="DDR3_DQS6_N">
 <contactref element="U1" pad="H4"/>
 </signal>
-<signal name="N$141">
+<signal name="DDR3_D51">
 <contactref element="U1" pad="K7"/>
 </signal>
-<signal name="N$142">
+<signal name="DDR3_D50">
 <contactref element="U1" pad="K6"/>
 </signal>
-<signal name="N$143">
+<signal name="DDR3_D49">
 <contactref element="U1" pad="G4"/>
 </signal>
-<signal name="N$144">
+<signal name="DDR3_D48">
 <contactref element="U1" pad="F4"/>
 </signal>
-<signal name="N$145">
+<signal name="DDR3_DM6">
 <contactref element="U1" pad="G5"/>
 </signal>
 <signal name="N$146">
 <contactref element="U1" pad="F5"/>
 </signal>
-<signal name="N$147">
+<signal name="DDR3_D47">
 <contactref element="U1" pad="E5"/>
 </signal>
-<signal name="N$148">
+<signal name="DDR3_D46">
 <contactref element="U1" pad="D5"/>
 </signal>
-<signal name="N$149">
+<signal name="DDR3_D45">
 <contactref element="U1" pad="D4"/>
 </signal>
-<signal name="N$150">
+<signal name="DDR3_D44">
 <contactref element="U1" pad="C4"/>
 </signal>
-<signal name="N$151">
+<signal name="DDR3_DQS5_P">
 <contactref element="U1" pad="B5"/>
 </signal>
-<signal name="N$152">
+<signal name="DDR3_DQS5_N">
 <contactref element="U1" pad="A5"/>
 </signal>
-<signal name="N$153">
+<signal name="DDR3_D43">
 <contactref element="U1" pad="B4"/>
 </signal>
-<signal name="N$154">
+<signal name="DDR3_D42">
 <contactref element="U1" pad="A4"/>
 </signal>
-<signal name="N$155">
+<signal name="DDR3_D41">
 <contactref element="U1" pad="D3"/>
 </signal>
-<signal name="N$156">
+<signal name="DDR3_D40">
 <contactref element="U1" pad="C3"/>
 </signal>
-<signal name="N$157">
+<signal name="DDR3_DM5">
 <contactref element="U1" pad="F3"/>
 </signal>
 <signal name="N$158">
 <contactref element="U1" pad="E3"/>
 </signal>
-<signal name="N$159">
+<signal name="DDR3_D39">
 <contactref element="U1" pad="C2"/>
 </signal>
-<signal name="N$160">
-<contactref element="U1" pad="B2"/>
-</signal>
-<signal name="N$161">
+<signal name="DDR3_D38">
 <contactref element="U1" pad="A3"/>
 </signal>
-<signal name="N$162">
+<signal name="DDR3_D37">
 <contactref element="U1" pad="A2"/>
 </signal>
-<signal name="N$163">
+<signal name="DDR3_DQS4_P">
 <contactref element="U1" pad="C1"/>
 </signal>
-<signal name="N$164">
+<signal name="DDR3_DQS4_N">
 <contactref element="U1" pad="B1"/>
 </signal>
-<signal name="N$165">
+<signal name="DDR3_D36">
 <contactref element="U1" pad="F2"/>
 </signal>
-<signal name="N$166">
+<signal name="DDR3_D35">
 <contactref element="U1" pad="E2"/>
 </signal>
-<signal name="N$167">
+<signal name="DDR3_D34">
 <contactref element="U1" pad="E1"/>
 </signal>
-<signal name="N$168">
+<signal name="DDR3_D33">
 <contactref element="U1" pad="D1"/>
 </signal>
-<signal name="N$169">
+<signal name="DDR3_D32">
 <contactref element="U1" pad="G2"/>
 </signal>
-<signal name="N$170">
+<signal name="DDR3_DM4">
 <contactref element="U1" pad="G1"/>
 </signal>
 <signal name="N$171">
@@ -2638,13 +2651,21 @@ design rules under a new name.</description>
 <contactref element="U1" pad="M5"/>
 <contactref element="C491" pad="1"/>
 <contactref element="C462" pad="1"/>
+<contactref element="C492" pad="1"/>
+<contactref element="C463" pad="1"/>
+<contactref element="U1" pad="G9"/>
+<contactref element="U1" pad="B2"/>
+<wire x1="60.08" y1="53.57" x2="64.08" y2="58.57" width="0" layer="19" extent="1-1"/>
 <wire x1="60.08" y1="51.57" x2="60.08" y2="53.57" width="0" layer="19" extent="1-1"/>
 <wire x1="62.08" y1="47.57" x2="60.08" y2="51.57" width="0" layer="19" extent="1-1"/>
 <wire x1="62.08" y1="44.57" x2="62.08" y2="47.57" width="0" layer="19" extent="1-1"/>
+<wire x1="57.08" y1="63.57" x2="64.08" y2="58.57" width="0" layer="19" extent="1-1"/>
 <wire x1="15.86" y1="2.54" x2="62.08" y2="44.57" width="0" layer="19" extent="1-1"/>
 <wire x1="15.86" y1="-2.54" x2="15.86" y2="2.54" width="0" layer="19" extent="1-1"/>
 <wire x1="15.86" y1="-21.59" x2="15.86" y2="-2.54" width="0" layer="19" extent="1-1"/>
 <wire x1="15.86" y1="-26.67" x2="15.86" y2="-21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="15.86" y1="-39.37" x2="15.86" y2="-26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="15.86" y1="-44.45" x2="15.86" y2="-39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
